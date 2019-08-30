@@ -84,9 +84,9 @@
   .highcharts-yaxis-labels {
     fill: $slate-secondary-5;
     // use this to change the axis label
-    & span:first-child {
-      &:after {
-        content: "%";
+    & span:last-child {
+      &:before {
+        content: "$";
     }
     }
   }
@@ -205,8 +205,8 @@
   /* Series options */
   /* Default colors */
   .highcharts-color-0 {
-    fill: $green-primary;
-    stroke: $green-primary;
+    fill: $green-secondary-5;
+    stroke: $green-secondary-5;
   }
   
   .highcharts-color-1 {
